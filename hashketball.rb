@@ -142,3 +142,11 @@ end
 def team_names
   all_teams.collect { |team| team[:team_name] }
 end
+
+def player_numbers(teamname)
+  team_find(teamname)[:players].collect { |player,data| data[:number] }
+end
+
+ def player_stats(playername)
+  all_players[playername]
+end
