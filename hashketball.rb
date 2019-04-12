@@ -135,7 +135,10 @@ def team_find(teamname)
   all_teams.find { |team| team[:team_name] == teamname }
 end
 
-
  def team_colors(teamname)
   team_find(teamname)[:colors]
+end
+
+def team_names
+  all_teams.collect { |team| team[:team_name] }
 end
