@@ -1,3 +1,3 @@
 def Nhashketball
-  game_hash = {}
+  game_hash = []
 end
