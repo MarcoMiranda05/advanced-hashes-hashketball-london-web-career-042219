@@ -150,3 +150,8 @@ end
 def player_stats(playername)
   all_players[playername]
 end
+
+def big_shoe_rebounds
+  best = all_players.max_by { |player,data| data[:shoe] }
+  best[1][:rebounds]
+end
