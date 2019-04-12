@@ -1,3 +1,5 @@
 def game_hash
-  match = {}
+  match = {:home => {},:away => {}
+
+  }
 end
