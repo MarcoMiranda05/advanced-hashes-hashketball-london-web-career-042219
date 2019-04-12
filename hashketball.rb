@@ -114,3 +114,15 @@ game_hash = {
   }
 }
 end
+
+def all_players
+  game_hash[:home][:players].merge(game_hash[:away][:players])
+end
+
+def all_teams
+  game_hash.values
+end
+
+def num_points_scored(playername)
+  all_players[playername][:points]
+end
