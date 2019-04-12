@@ -1,10 +1,3 @@
-def NBA
-  game_hash = {
-    :home => {
-
-    },
-    :away => {
-
-    }
-  }
-end
+def Nhashketball
+  game_hash = {}
+  end
