@@ -1,11 +1,10 @@
-# Write your code here!
+def NBA
+  game_hash = {
+    :home => {
 
+    },
+    :away => {
 
-
-
-
-
-
-
-
-
+    }
+  }
+end
